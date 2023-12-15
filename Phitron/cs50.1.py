@@ -1,0 +1,28 @@
+name = input("What's your name? ")
+print("hello", name)
+print("Hello " + name)
+print('Hello, "Jungle Book"')
+print("Hello, \"Jungle BOOK\"")
+name2 = input("Hey, what are you doing? ").strip().capitalize()
+print(name2)
+print(f"Hello {name}")
+name = name.title()
+print(f"Hello {name}")
+print(f"HI {name}")
+nameLast = input("Enter two word in the input ")
+first, last = nameLast.split(" ")
+print(first)
+integerX = int(input("give the value of x \n"))
+integerY = int(input("give the value of y \n"))
+z = integerX + integerY
+print(z)
+z = round(z)
+print(f"{z:,}")
+integerM = float(input("Give me the value for m \n"))
+integerN = float(input("Give me the value for n\n"))
+o = integerM / integerN
+print(f"{o:.4f}")
+o = round(o, 2)
+print(f"{o}")
+
+
